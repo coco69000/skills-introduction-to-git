@@ -280,7 +280,7 @@ function checkPatternMatch() {
           dropInterval = Math.max(200, 1000 - (level - 1) * 100);
           document.getElementById("level").textContent = level;
         }
-
+git diff
         updateScore();
         setNewTargetPattern();
         return;
